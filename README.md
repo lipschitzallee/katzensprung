@@ -1,0 +1,5 @@
+# katzensprung
+Ausflüge in Buckow und Umgebung
+
+NIEMALS PERSONENBEZOGENE DATEN HINZUFÜGEN. HIER BEGINNT DAS WWW
+
