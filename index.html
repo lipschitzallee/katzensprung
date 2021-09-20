@@ -14,9 +14,10 @@
     }
 
     main { display: flex; }
-    main > article { order: 2; min-width: 67%; flex:1; }
-    main > nav     { order: 1; width: 33%; }
+    main > article { order: 2; min-width: 50%; flex:1; }
+    main > nav     { order: 1; max-width: 50%; flex:1; }
     main > aside   { order: 3; width: 0; }
+    main > footer  { order: 4; width: 100%; }
 
     li{list-style: none;}
 
@@ -24,6 +25,11 @@
       background-color: #EFE1CE;
       color: #6B5876;
       font-size: small;
+    }
+    
+    footer{
+      color: #211a25;
+      font-size: xx-small;
     }
 
   </style>  
