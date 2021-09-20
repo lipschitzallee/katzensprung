@@ -3,13 +3,21 @@
   <head>
     <title>Katzensprung — Lipschitzallee</title>
     <style>
+
       body{
         background-color: black;
         color: white; 
         font-size: x-large;
         font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
       }
+      
+      main { display: flex; }
+      main > article { order: 2; min-width: 12em; flex:1; }
+      main > nav     { order: 1; width: 200px; }
+      main > aside   { order: 3; width: 200px; }
+      
       li{list-style: none;}
+      
       em{ 
         color: black;
         background-color: white;
@@ -20,8 +28,9 @@
   </head>
   
   <body>
-    <aside>
-      <header>
+    <header></header>
+    <nav>
+      
         <svg
    viewBox="0 0 100 100"
    width="100"
@@ -116,13 +125,15 @@
     </g>
   </g>
 </svg>
-      </header>
-    </aside>
+    </nav>
     <main>
+    <article>  
     <ul>
       <li>🌳 Späth’sche Baumschulen Traditionsfest <em>am 18. und 19. September 2021 von 9 bis 18 Uhr</em></li>
       <li>🍺 Biergarten Späthi's <em>Mittwoch bis Sonntag von 12 bis 20 Uhr</em></li> 
     </ul>
+      </article>
+      <aside></aside>
     </main>
   </body>
 </html>
